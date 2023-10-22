@@ -1,0 +1,31 @@
+/**icone e texto de apoio, alerta...lembrar
+<i class="fa-solid fa-phone"></i> telfone
+<i class="fa-regular fa-user"></i> espac
+*/
+
+
+.input-form{
+    width: 100%;
+    min-width: 200px;
+    max-width: 300px;
+    margin: 10px;
+    position:relative;
+}
+
+.input-form i{
+    top:10px;
+    left:10px;
+    color: rgb(133, 29, 29);
+    position:absolute;
+}
+
+.input-form input{
+    width: 100%;
+    outline: none; /*borda ao clicar/<span> Senha </span>*/
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: solid 1px rgb(133, 29, 29);
+    border-radius: 3px;
+}
